@@ -38,18 +38,20 @@ class SinglyLinkedList{
             this.head = null;
             this.tail = null
         }
+        return current;
+    }
+   
         shift(){
             if(!this.head)return undefined;
             var currentHead = this.head;
             this.head = currentHead.next;
             this.length--;
             if(this.length === 0){
-                
+                this.tail = null;
             }
+            return currentHead;
         }
     }
-
-}
 
 var list = new SinglyLinkedList()
 list.push("Hello")
