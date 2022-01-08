@@ -21,6 +21,13 @@ class Node{
             this.length++;
             return this;
         }
+        traverse(){
+            var current = this.head;
+            while(current){
+                console.log(current val);
+                current = current.next;
+            }
+        }
         pop(){
         if(!this.head)return undefined;
         var current = this.head;
