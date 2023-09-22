@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>INSERTION IN ARRAY</title>
+    <script>
+        let data = [12,43,56,4,6,7];
+        let newEl = 87;
+        let position = 3;
+
+        for(let i = data.length - 1;i>=0;i--){
+            //console.warn(data[i]);
+            if(i>=position){
+                data[i+1] = data[i];
+                if(i==position){
+                    data[i] = newEl;
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
