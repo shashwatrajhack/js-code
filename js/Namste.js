@@ -78,3 +78,10 @@ Promise.all([p1,p2,p3])
 .catch((err)=>{
     console.log(err);
 })
+
+//Async/Await
+//Async/Await is a syntax for working with promises that makes asynchronous code look synchronous.
+//An async function is a function that returns a promise and can contain await expressions.
+
+//Currying
+//Currying is a technique in functional programming where a function is transformed into a sequence of functions, each taking a single argument.
