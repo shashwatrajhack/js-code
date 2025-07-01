@@ -10,8 +10,14 @@
     <button onclick="addTodo()" id="addTodo">Add Todo</button>
     <button onclick="updateTodo()" id="updateTodo">Update Todo</button>
     <input type="text" id="searchTask" placeholder="Search a task"   onkeyup="searchFilter()"/>
+     <button onclick="deleteAll()" >Delete All</button>
+     <button onclick="checkAll()" >Check All</button>
     <div id="todoList"></div>
-
+   <button onclick="pageChange(false)">Prev</button> 
+   <div id="totalNumber"></div>  
+    <button onclick="pageChange(true)">Next</button>
+    <div id="pagination"></div>
     <script src="todo.js"></script>
   </body>
 </html>
+ 
