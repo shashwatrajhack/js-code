@@ -1,19 +1,5 @@
 let arr = [];
 let idx = 0;
-// const todoPerPage = 5;
-// function showPagination() {
-//     const pagination = document.getElementById("pagination");
-//     pagination.innerHTML = "";
-//     const totalPages = Math.ceil(arr.length / todoPerPage);
-//     for (let i = 1; i <= totalPages; i++) {
-//         const pageButton = document.createElement("button");
-//         pageButton.textContent = i;
-//         pageButton.onclick = () => {
-//         displayTodos(i);
-//         };
-//         pagination.appendChild(pageButton);
-//     }
-// }
 
 document.getElementById(
   "totalNumber"
